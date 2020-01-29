@@ -33,7 +33,7 @@ in the relevant sub folder. All code is written in C(xc16 compiler)
 | Num | Desc | Link |
 | --- | --- | --- |
 | 1 |  Blink LED | [URL](projects/Blink) |
-| 2 |  Sixteen (16) segment Alphanumeric LED display library | [URL](projects/16seg) |
+| 2 |  Sixteen (16) segment Alphanumeric LED display library | [URL](projects/16Seg) |
 | 3 |  ------- |--------- |
 | 4 |  ------- |--------- |
 | 5 |  ------- |--------- |

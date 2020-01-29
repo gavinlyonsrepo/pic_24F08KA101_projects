@@ -3,7 +3,7 @@
 Overview
 --------------------------------------------
 * Name: SixteenSegDisplay
-* Description: A  library to display data on a 16 segment LED module.
+* Description: A library to display data on a 16 segment LED module.
 It requires 3 Daisy chained shift registers/
 Library is also designed to work with both common anode and common cathode module.
 Library includes ASCII font and also supports Hexadecimal, Decimal point, string support.
@@ -38,12 +38,6 @@ adding four diagonal and two vertical segments and splitting the three horizonta
 16, 14 and 7 displays segments layout.
 
 ![ layout ](https://github.com/gavinlyonsrepo/FourteenSegDisplay/blob/master/extra/image/14seg2.png)
-
-Use transistors to switch Digits on/off unless using high value of 
-current limit resistors: For example 2.2K resistors will ((1.44mA) * 17= 24.48mA )will 
-give total current per digit of 24.48mA with all segments on. Check your datasheet to see current limit
-of GPIO for given microcontroller. Maximum output current is 25mA on this PIC. 
-Also such high level resistor leads to dim display. 
 
 When displaying a large number of digts 4-8,Run at a "fast" clock freq (8mhz plus) 
 to avoid flickering in the display and/or adjust shift delay parameter
@@ -81,8 +75,8 @@ digits.
 |   |    | QB |     | m 2 |
 |   |    | QC |     | n 17 |
 |   |    | QD |     | p 15 |
-|   |    | QE |     | r 6 |
-|   |    | QF |     | s 14 |
+|   |    | QE |     | r 14 |
+|   |    | QF |     | s 6 |
 |   |    | QG |     | t 7 |
 |   |    | QH |     | u 5 |
 |   |    |    | QA  | Digit1 11 LSB RHS |
