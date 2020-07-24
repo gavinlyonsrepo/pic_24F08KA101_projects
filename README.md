@@ -1,4 +1,8 @@
+Table of contents
+---------------------------
 
+  * [Overview](#overview)
+  * [Project List](#project-list)
 
 Overview
 --------------------------------------------
@@ -8,15 +12,6 @@ Overview
 * Author: Gavin Lyons 
 * Mail: glyons66@hotmail.com
 * Copyright: (C) 2019 Gavin Lyons GNU GPL. see LICENSE.md in documentation section
-
-Table of contents
----------------------------
-
-  * [Overview](#overview)
-  * [Table of contents](#table-of-contents)
-  * [Project List](#project-list)
-
-
 
 Project List
 -----------------------------------------
@@ -32,9 +27,6 @@ in the relevant sub folder. All code is written in C(xc16 compiler)
 
 | Num | Desc | Link |
 | --- | --- | --- |
-| 1 |  Blink LED | [URL](projects/Blink) |
-| 2 |  Sixteen (16) segment Alphanumeric LED display library | [URL](projects/16Seg) |
+| 1 |  Sixteen (16) segment Alphanumeric LED display library | [URL](projects/16Seg) |
+| 2 |  UART PIC to PC Serial port data link  | [URL](projects/UART) |
 | 3 |  ------- |--------- |
-| 4 |  ------- |--------- |
-| 5 |  ------- |--------- |
-
