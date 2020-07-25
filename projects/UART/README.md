@@ -37,9 +37,9 @@ Features
 This code will work with many [FTDI](https://en.wikipedia.org/wiki/FTDI) serial and bluetooth modules the one used here is
 the YP-05 which can be set for 5 or 3.3V. Set to 3.3V for this PIC.
 This module is based on [FT232RL](https://www.sparkfun.com/datasheets/IC/FT232R_v104.pdf) chip. 
-The Yp05 is connected to USB port of PC. 
+The Yp05 is connected to USB port of PC.
 
-![ yp05 ](https://github.com/gavinlyonsrepo/pic_24F08KA101_projects/blob/master/extra/images/3.jpg)
+![ yp05 ](https://github.com/gavinlyonsrepo/pic_24F08KA101_projects/blob/master/images/3.jpg)
 
 
 
