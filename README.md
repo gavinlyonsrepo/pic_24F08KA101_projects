@@ -1,16 +1,9 @@
-Table of contents
----------------------------
-
-  * [Overview](#overview)
-  * [Project List](#project-list)
-
 Overview
 --------------------------------------------
 * Name: pic_24F08KA101_projects
 * Description: A set of projects and example code for a **Microchip** 
  PIC 24F08KA101 Micro-controller, written in C (xc16 complier).
 * Author: Gavin Lyons 
-* Mail: glyons66@hotmail.com
 * Copyright: (C) 2019 Gavin Lyons GNU GPL. see LICENSE.md in documentation section
 
 Project List
