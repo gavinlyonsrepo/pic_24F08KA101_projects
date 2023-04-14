@@ -1,18 +1,19 @@
 
-
 Overview
 --------------------------------------------
 * Name: SixteenSegDisplay
-* Description: A library to display data on a 16 segment LED module.
+* Description: 
+
+A library to display data on a 16 segment LED module.
 It requires 3 Daisy chained shift registers/
 Library is also designed to work with both common anode and common cathode module.
 Library includes ASCII font and also supports Hexadecimal, Decimal point, string support.
 It also provides a function for manually setting segments to any user defined pattern. 
+
 * Author: Gavin Lyons.
 * Complier: xc16 v1.41 compiler
 * PIC: PIC24F08KA101
 * IDE:  MPLAB X v5.30
-* Copyright: (C) 2019 G Lyons This program is free software, see license.md for more detail.
 * URL: https://github.com/gavinlyonsrepo/pic_24F08KA101_projects
 * Note: This is a fork of a subsection of a Arduino library I wrote. "FourteenSegDisplay" 
 It can be found in Arduino librarymanger or at [link](https://github.com/gavinlyonsrepo/FourteenSegDisplay).
@@ -23,8 +24,10 @@ Table of contents
 
   * [Overview](#overview)
   * [Features](#features)
-
-
+  * [Connections](#connections)
+  * [Files](#files)
+  * [Functions](#functions)
+  
 Features
 ----------------------
 
@@ -54,7 +57,8 @@ is the Least significant or right most Digit.  LSB RHS.
 This library was tested on a single digit PSC05-11SURKWA common cathode. This table can be expanded to 7-8
 digits.
 
-**Connections**
+Connections
+-----------------------
 
 | PIC , SW | IC 1 | IC 2 | IC 3 | PSC05-11SURKWA | 
 | ---  | --- | --- | --- | --- | 
@@ -86,13 +90,15 @@ digits.
 ![ layout ](https://github.com/gavinlyonsrepo/FourteenSegDisplay/blob/master/extra/image/16seg.png)
 
 
-**Files table**
+Files
+----------------------
 
 | Test file | Font file | Header file | code file |
 | --- | --- | --- |  --- | 
 |  main.c | SixteenSegDisplayFont.h | SixteenSegDisplay.h | SixteenSegDisplay.c |
 
-**Library Functions**
+Functions
+-------------------------------------
 
 The commented functions can be found in library header files
 See these file for more details on functions.
